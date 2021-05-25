@@ -1,24 +1,7 @@
-# README
+# Sample app that demonstrates locking issues with the closure_tree gem
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+And they're solved by using a custom fork of it (https://github.com/factorialco/closure_tree.git)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Usage:
+`docker run -e MYSQL_ROOT_PASSWORD=hola -p3036:3036 mysql:5.7`
+`./run.sh`

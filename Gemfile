@@ -55,4 +55,5 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'closure_tree', path: "../closure_tree"
+# Typo in the name, but it's the correct branch
+gem 'closure_tree', github: 'factorialco/closure_tree', branch: 'feature/clousure-tree-lock-name'

@@ -1,5 +1,7 @@
-PATH
-  remote: ../closure_tree
+GIT
+  remote: https://github.com/factorialco/closure_tree.git
+  revision: bb5bb9a639790529332d14bb2ffe306aef3d02d0
+  branch: feature/clousure-tree-lock-name
   specs:
     closure_tree (7.2.0)
       activerecord (>= 4.2.10)
